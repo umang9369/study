@@ -16,6 +16,6 @@ bool palindrome(int n) {
 }
 
 int main() {
-    cout << palindrome(12121) << endl;
+    cout << palindrome(121) << endl;
     return 0;
 }
