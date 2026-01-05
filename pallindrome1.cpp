@@ -1,4 +1,7 @@
-
+#include <iostream>
+#include <algorithm>
+#include <string>
+using namespace std;
 
 bool palindrome(int n) {
     string s  = to_string(n);
