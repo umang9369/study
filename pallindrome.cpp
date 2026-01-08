@@ -17,3 +17,5 @@ int main() {
     cout << palindrome(0, s) << endl;
     return 0;
 }
+
+//pallindrome normal approach
