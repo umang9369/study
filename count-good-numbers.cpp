@@ -17,7 +17,7 @@ public:
         return (long long) power (5,(n+1)/2) * power( 4, n/2 )%m;
     }
 };
-
+//function calling
 #include <iostream>
 int main() {
     Solution sol;
