@@ -3,8 +3,7 @@
 
 #include <iostream>
 using namespace std;
-
-
+//function making
 class Solution {
 public:
     bool isValid(string S) {
