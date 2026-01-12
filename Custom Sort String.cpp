@@ -13,3 +13,4 @@ public:
         return s;
     }
 };
+//make main function for normal call
