@@ -1,3 +1,5 @@
+//use required including files and namepsce std
+
 class Solution {
 public:
     const int m = 1e9+7;
