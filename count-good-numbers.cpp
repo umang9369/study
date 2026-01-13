@@ -27,3 +27,4 @@ int main() {
     std::cout << "Count of good numbers for n = " << n << " is: " << sol.countGoodNumbers(n) << std::endl;
     return 0;
 }
+//use main function accordingly 
