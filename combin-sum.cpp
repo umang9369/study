@@ -28,3 +28,5 @@ public:
         return ans;
     }
 };
+
+//use main function accordingly 
