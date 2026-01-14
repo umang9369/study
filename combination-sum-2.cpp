@@ -32,3 +32,4 @@ public:
         return result;
     }
 };
+//write main function and include files for importimg on your own
