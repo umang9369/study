@@ -42,3 +42,5 @@ int main() {
     cout << "Input: " << s2 << " -> " << (sol.isValid(s2) ? "true" : "false") << endl;
     return 0;
 }
+
+//use it without main and include function in leetcode accordingly
