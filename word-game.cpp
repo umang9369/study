@@ -46,3 +46,4 @@ public:
         return false;
     }
 };
+//use main function in other compiler
