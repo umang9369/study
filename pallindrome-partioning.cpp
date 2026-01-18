@@ -30,3 +30,4 @@ public:
         return ans;
     }
 };
+//add main function accordingly
