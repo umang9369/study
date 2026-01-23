@@ -27,3 +27,4 @@ public:
         return solve(0, s); 
     }
 };
+//main functio write on your own
