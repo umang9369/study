@@ -8,3 +8,4 @@ public:
         return value;
     }
 };
+//main function write on own
