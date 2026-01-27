@@ -14,3 +14,4 @@ public:
         return count <=1;
     }
 };
+//main function khud likh lo
