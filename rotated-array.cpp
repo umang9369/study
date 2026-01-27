@@ -8,3 +8,4 @@ public:
         nums = temp;
     }
 };
+//main function khud se likh lo
