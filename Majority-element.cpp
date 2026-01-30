@@ -16,3 +16,4 @@ public:
         return result;
     }
 };
+//main function khud likho.
