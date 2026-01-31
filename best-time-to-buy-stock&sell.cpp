@@ -10,3 +10,5 @@ public:
         return maxprofit;
     }
 };
+
+//main function khud likho
