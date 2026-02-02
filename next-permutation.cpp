@@ -20,3 +20,4 @@ public:
         reverse(nums.begin() + gola_index + 1, nums.end());
     }
 };
+//main function likh do
