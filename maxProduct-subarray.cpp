@@ -18,3 +18,6 @@ public:
         return ans;
     }
 };
+
+
+//main function khud likho
