@@ -15,3 +15,4 @@ class Solution {
         return count;
     }
 };
+//main functin on your own
