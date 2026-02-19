@@ -10,3 +10,4 @@ public:
         return count;
     }
 };
+//main function on your own.
