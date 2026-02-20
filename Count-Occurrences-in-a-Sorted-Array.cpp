@@ -47,3 +47,4 @@ class Solution {
         return ans[1] - ans[0] + 1;;
     }
 };
+//main function on your own.
