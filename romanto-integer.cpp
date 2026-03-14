@@ -21,3 +21,4 @@ public:
         return res+mp[s[s.size()-1]];
     }
 };
+//main
