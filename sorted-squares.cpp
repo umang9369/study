@@ -6,7 +6,7 @@ public:
         int right=n-1;
         vector<int> result(n);
         for(int i=n-1;i>=0;i--){
-            if(abs(nums[left])>abs(nums[right])){
+            if(abs(nums[left])>abs(nums[right])){ //abs - negative value bhi positive treat hogi , absolute value lega
                 result[i]=nums[left]*nums[left];
                 left++;
             }else{
