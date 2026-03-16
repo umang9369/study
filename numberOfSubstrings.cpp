@@ -17,3 +17,6 @@ public:
     }
 };
 //main
+
+
+//2 pointer se hoga
