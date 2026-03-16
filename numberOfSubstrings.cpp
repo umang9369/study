@@ -8,7 +8,7 @@ public:
         for(int r=0;r<n;r++){
             mp[s[r]]++;
             while(mp['a']>0 && mp['b']>0 && mp['c']>0){
-                res += n-r;
+                res += n-r; // result = pura size - jitna substring already milgya
                 mp[s[l]]--;
                 l++;
             }
