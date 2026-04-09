@@ -36,6 +36,7 @@ public:
             lenb--;
             headB=headB->next;
         }
+        //now ab hum interssection aa gye h
         while(headA != headB){
             headA=headA->next;
             headB=headB->next;
