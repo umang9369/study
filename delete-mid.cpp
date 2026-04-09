@@ -21,7 +21,7 @@ public:
             slow=slow->next;
             fast=fast->next->next;
         }
-        slow->next=slow->next->next;
+        slow->next=slow->next->next;// delete k naam pr node skip krdo
         return head;
     }
 };
