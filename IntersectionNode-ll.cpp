@@ -27,6 +27,7 @@ public:
     ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
         int lena=lengtha(headA);
         int lenb=lengthb(headB);
+        //length func use karo aur nikalo
         while(lena>lenb){
             lena--;
             headA=headA->next;
