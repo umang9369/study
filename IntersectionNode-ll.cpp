@@ -41,6 +41,6 @@ public:
             headA=headA->next;
             headB=headB->next;
         }
-        return headA;
+        return headA;//headB bhi return krwa sakte kyunki iss point pr dono ki value same ho chuki hai
     }
 };
