@@ -16,7 +16,7 @@ public:
         }
         ListNode* slow=head;
         ListNode* fast=head;
-        fast=head->next->next;
+        fast=head->next->next;// ye step s ham , slow aur fast ko aise position par la denge jaha s jissko delete krna h uske just ek phle par slow point kregga
         while(fast != NULL && fast->next != NULL){
             slow=slow->next;
             fast=fast->next->next;
