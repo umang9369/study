@@ -24,7 +24,8 @@ class myStack {
     void push(int x) {
         // inserts x at the top of the stack
         if(isFull()) return;
-        arr[--top]=x;
+        top++;
+        arr[top] = x;
     }
 
     void pop() {
