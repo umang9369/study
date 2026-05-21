@@ -8,7 +8,7 @@ public:
         unordered_map<int,int>mp;
         while(r<n){
             mp[fruits[r]]++;
-            if(mp.size() <=2){//making of window
+            if(mp.size() <=2){//making of window.
                 count=max(count,r-l+1);
             }else{
                 mp[fruits[l]]--;
