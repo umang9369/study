@@ -1,5 +1,5 @@
 class Solution {
-private:
+private: //similar to longest subarray sum equals to k question
     int atmost(vector<int>& nums, int k){
         if(k<0)return 0;
         int l=0;
@@ -9,7 +9,7 @@ private:
         int n=nums.size();
         while(r<n){
             sum+=nums[r];
-            while(sum >k){
+            while(sum >k){ 
                 sum -= nums[l];
                 l++;
             }
