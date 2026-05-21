@@ -8,7 +8,7 @@ private:
         int sum=0;
         int n=nums.size();
         while(r<n){
-            sum += nums[r]%2;
+            sum += nums[r]%2; //%2 conerts the no into odd and even 
             while(sum>k){
                 sum -=nums[l]%2; //window shrink
                 l++;
