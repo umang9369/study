@@ -10,7 +10,7 @@ private:
         while(r<n){
             sum += nums[r]%2;
             while(sum>k){
-                sum -=nums[l]%2;
+                sum -=nums[l]%2; //window shrink
                 l++;
             }
             count+=(r-l+1);
