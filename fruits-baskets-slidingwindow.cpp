@@ -8,11 +8,11 @@ public:
         unordered_map<int,int>mp;
         while(r<n){
             mp[fruits[r]]++;
-            if(mp.size() <=2){
+            if(mp.size() <=2){//making of window
                 count=max(count,r-l+1);
             }else{
                 mp[fruits[l]]--;
-                if(mp[fruits[l]]==0){
+                if(mp[fruits[l]]==0){ //shrinking of window
                     mp.erase(fruits[l]);
                 }
                 l++;
