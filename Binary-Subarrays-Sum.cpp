@@ -10,7 +10,7 @@ private: //similar to longest subarray sum equals to k question
         while(r<n){
             sum+=nums[r];
             while(sum >k){ 
-                sum -= nums[l];
+                sum -= nums[l]; //window shrink
                 l++;
             }
             count+=(r-l+1);
