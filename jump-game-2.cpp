@@ -5,6 +5,7 @@ public:
         int r=0;
         int jump=0;
         int n=nums.size();
+        //min farthest use krke usme l ko r ke ek aage aur r ko farthest bna kr krenge
         while(r<n-1){
             int farthest=0;
             for(int i=l;i<=r;i++){
