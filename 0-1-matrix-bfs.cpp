@@ -24,7 +24,7 @@ public:
             int steps=q.front().second;
             q.pop();
             dist[row][col]=steps;
-            //yaha s distance iss matrix m store ho jyega
+            //yaha s distance iss matrix m store ho jyega.
             for(int i=0;i<4;i++){
                 int nrow=row+drow[i];
                 int ncol=col+dcol[i];
