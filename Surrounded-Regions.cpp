@@ -15,6 +15,8 @@ public:
             }
         }
     }
+//we can also use bfs to traverse
+
     void solve(vector<vector<char>>& grid) {
         int n=grid.size();
         int m=grid[0].size();
