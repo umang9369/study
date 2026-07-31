@@ -10,6 +10,7 @@ public:
         dfs(grid,u-1,v);
         dfs(grid,u,v-1);
     }
+//bfs can also be used here
     int numEnclaves(vector<vector<int>>& grid) {
         int m=grid.size();
         int n=grid[0].size();
